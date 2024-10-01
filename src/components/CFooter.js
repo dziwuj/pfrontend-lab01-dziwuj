@@ -2,6 +2,7 @@ import React from 'react'
 
 export const CFooter = () => {
     let date = new Date()
+    date = date.toLocaleDateString('pl-PL')
 
     return (
         <div>
