@@ -1,0 +1,22 @@
+.backgroundDivClass {
+    background-color: rgb(184, 255, 151);
+    padding-bottom: 20px;
+}
+
+.contentDivClass {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contentsFlexImg {
+    flex: 0 0 auto;
+    padding: 20px;
+    width: 20%;
+}
+
+.contentsFlexText {
+    flex: 1 1 auto;
+    width: 80%;
+    padding: 10px;
+    text-align: justify;
+}
